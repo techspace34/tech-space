@@ -1,0 +1,323 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px auto;
+    padding: 50px 0px 50px 0px;
+    background-color: #FFFFFF;
+    max-width: 1440px;
+    width: calc(100vw - 70px);
+    border-radius: 16px;
+}
+
+@media screen and (max-width: 940px) {
+    .cart {
+        padding: 50px 10px 50px 10px;
+    }
+}
+
+.container {
+    max-width: 840px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    color: #000000;
+    margin: 0;
+}
+
+.imageCart {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.imageTrash {
+    width: 22px;
+    height: 22px;
+    margin-right: 4px;
+}
+
+.titleTrash {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A3A3A3;
+    margin: 0;
+}
+
+.menuContainer {
+    max-width: 840px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto 100px;
+}
+
+@media screen and (max-width: 525px) {
+    .menuContainer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.menuWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuImage {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.menuWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.menuTitle {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    margin: 0 0 10px 0;
+}
+
+.menuSubtitle {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+    color: #A3A3A3;
+}
+
+.menuWrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 525px) {
+    .menuWrap {
+        margin: 10px 0 0;
+    }
+}
+
+.menuPlus {
+    width: 25px;
+    height: 25px;
+    border: 2px solid #A3A3A3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0;
+    color: #A3A3A3;
+    cursor: pointer;
+}
+
+.menuCount {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0 10px 0 10px;
+    color: #000000;
+}
+
+.menuMinus {
+    width: 25px;
+    height: 25px;
+    border: 2px solid #A3A3A3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0;
+    color: #A3A3A3;
+    cursor: pointer;
+}
+
+.menuPrice {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0;
+    color: #000000;
+}
+
+@media screen and (max-width: 525px) {
+    .menuPrice {
+        margin: 10px 0 10px;
+    }
+}
+
+.menuCancel {
+    width: 25px;
+    height: 25px;
+    border: 2px solid #A3A3A3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0;
+    color: #A3A3A3;
+    cursor: pointer;
+}
+
+.order {
+    margin: 50px auto 0;
+    max-width: 840px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 440px) {
+    .order {
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+    }
+}
+
+.orderWrap {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.orderTitle {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+    color: #000000;
+}
+
+.orderSpan {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+    color: #A3A3A3;
+}
+
+.orderSpanBlack {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+    color: #000000;
+}
+
+.orderButton {
+    color: #FFFFFF;
+    border: none;
+    background-color: #000000;
+    outline: none;
+    width: 170px;
+    height: 50px;
+    margin: 30px 0 0;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.cartEmpty {
+    margin: 200px auto 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartEmptySubtitle {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    margin: 30px 0 0;
+}
+.orderButtonBack {
+    background-color: #FFFFFF;
+    border: 2px solid #A3A3A3;
+    outline: none;
+    width: 170px;
+    height: 50px;
+    margin: 30px 0 0;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    color: #A3A3A3;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

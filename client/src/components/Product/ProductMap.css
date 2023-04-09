@@ -1,0 +1,39 @@
+.buttonChoiceMap {
+    border-radius: 8px;
+    border: 2px solid #b6b6b6;
+    outline: none;
+    background: #FFFFFF;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    margin: 10px 10px 0 0;
+    padding: 7px 10px 7px 10px;
+    cursor: pointer;
+}
+
+.buttonChoiceActiveMap {
+    border-radius: 8px;
+    border: 2px solid #000000;
+    outline: none;
+    background: #FFFFFF;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    margin: 10px 10px 0 0;
+    padding: 7px 10px 7px 10px;
+    cursor: pointer;
+}
+
+.buttonChoiceActiveMap:last-of-type {
+    margin: 0;
+}
+
+.buttonChoiceMap:last-of-type {
+    margin: 0;
+}

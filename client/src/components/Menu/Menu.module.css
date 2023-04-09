@@ -1,0 +1,114 @@
+.catalog {
+    max-width: 100%;
+    background-color: #2B2A2A;
+    margin: 0 auto;
+    padding: 45px 50px 45px 50px;
+}
+
+@media screen and (max-width: 775px) {
+    .catalog {
+        padding: 45px 10px 45px 10px;
+    }
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+@media screen and (max-width: 950px) {
+    .wrapper {
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .wrapper {
+        display: none;
+    }
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15px 0 0;
+}
+
+.menuElement {
+    width: 20px;
+    height: 2px;
+    background: #E9E9E9;
+    border-radius: 5px;
+    margin: 0 0 4px 0;
+}
+
+.menuElement:last-of-type {
+    margin: 0;
+}
+
+.title {
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #E9E9E9;
+    margin: 0;
+}
+
+.text {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #E9E9E9;
+    margin: 0;
+}
+
+.cart {
+    background-color: #141414;
+    width: 110px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    outline: none;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #E9E9E9;
+    padding: 0 15px 0 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.cartLogo {
+    width: 26px;
+    height: 26px;
+}
+
+.link {
+    text-decoration: none;
+}

@@ -1,0 +1,72 @@
+.container {
+    max-width: 1110px;
+    margin: 0 auto 100px;
+}
+
+@media screen and (max-width: 1130px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+.image {
+    object-fit: cover;
+}
+
+.imageItem {
+    display: flex;
+    align-items: center;
+    height: 400px;
+    background-image: url('../../assets/images/TopSelling.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 3px solid #868686;
+    border-radius: 10px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    margin: 0 0 50px 0;
+}
+
+.text {
+    margin: 0;
+    cursor: pointer;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #E9E9E9;
+}
+
+.content {
+    padding-left: 50px;
+}
+
+.button {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    background-color: #000000;
+    color: #E9E9E9;
+    border-radius: 5px;
+    border: solid 1px #E9E9E9;
+    cursor: pointer;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #E9E9E9;
+    padding: 10px;
+}

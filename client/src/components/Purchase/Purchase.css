@@ -1,0 +1,22 @@
+#cc-exp-csc {
+    width: 220px;
+    border-bottom: solid 2px #999;
+    margin-bottom: 20px;
+}
+
+#cc-exp-csc-date {
+    text-align: center;
+    width: 80px;
+    border-bottom: solid 2px #999;
+}
+
+#cc-exp-csc-code {
+    width: 80px;
+    text-align: center;
+    border-bottom: solid 2px #999;
+}
+
+p {
+    margin: 0 5px;
+    padding: 0;
+}

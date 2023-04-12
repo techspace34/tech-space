@@ -10,7 +10,7 @@ const cartSlice = createSlice({
   initialState,
   reducers: {
     addItem(state, action) {
-      const findItem = state.items.find((obj) => obj.id === action.payload.id);
+      const findItem = state.items.find(obj => obj.id === action.payload.id);
 
       if (findItem) {
         findItem.count++;
@@ -26,15 +26,31 @@ const cartSlice = createSlice({
       }, 0);
     },
     minusItem(state, action) {
-      const findItem = state.items.find((obj) => obj.id === action.payload);
+      const findItem = state.items.find(obj => obj.id === action.payload);
       if (findItem) {
         findItem.count--;
+      } else {
+        state.items.push({
+          ...action.payload,
+        });
       }
+
+      state.totalPrice = state.items.reduce((sum, obj) => {
+        return obj.price * obj.count - sum;
+      }, 0);
     },
     removeItem(state, action) {
-      state.items = state.items.filter((obj) => obj.id !== action.payload);
+      // const data = JSON.parse(localStorage.getItem('persist:root'))
+      // localStorage.removeItem(data.cart)
+      state.items = state.items.filter(obj => obj.id !== action.payload);
+      if (state.items.length === 0) {
+        localStorage.clear()
+        state.items = [];
+        state.totalPrice = 0;
+      }
     },
     clearItems(state) {
+      localStorage.clear()
       state.items = [];
       state.totalPrice = 0;
     },

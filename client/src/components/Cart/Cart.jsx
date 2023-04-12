@@ -18,9 +18,18 @@ function Cart() {
 
   const totalCount = items.reduce((sum, item) => sum + item.count, 0);
 
+  console.log(totalCount)
+
   if (!totalPrice) {
     return <CartEmpty />;
   }
+
+  // const sumCount = () => {
+  //   if (totalPrice > 0) {
+  //     return totalPrice
+  //   }
+  //   // return totalPrice
+  // }
 
   return (
     <div className={s.cart}>

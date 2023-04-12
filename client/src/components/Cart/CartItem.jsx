@@ -26,7 +26,7 @@ function CartItem({ id, title, price, type, count, storage, image }) {
   return (
     <div className={s.menuContainer}>
       <div className={s.menuWrap}>
-        <img className={s.menuImage} src={image} alt="pizza" />
+        <img className={s.menuImage} src={image} alt=" " />
         <div className={s.menuWrapper}>
           <h2 className={s.menuTitle}>{title}</h2>
           <p className={s.menuSubtitle}>{type}, {storage}</p>
